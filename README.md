@@ -1,15 +1,14 @@
 # App Developer Entrance Project
 
-Create a client-side quiz app based on the provided requirements, data and views.
+A client-side quiz app based on the provided JSON file.
 
+Only HTML / CSS / Javascript were used while building this project.
 
-## Requirements
+## Summary
 
-- clone this repo as a starter
-- use only HTML/CSS/JS
-- use any frameworks or libraries of your choice (ex: JQuery, React, Bootstrap)
+A quiz app that uses data from a local JSON file via the JavaScript fetch api.
 
-## Quiz Data
+The app tests the users selected answers and compares them to the quiz data.
 
 Quiz data can be found in [src/quiz.json](./src/quiz.json). This content will be loaded when a user starts a quiz.
 
@@ -33,41 +32,7 @@ For every question there is one correct answer (with a value of `true`) and thre
 }
 ```
 
-## Views
-
-Feel free to be creative and style your views. As a bare minimum, please create the following three views:
-
-##### 01 - Welcome Screen
-
-![01 - Welcome View](./diagrams/quiz-01.png)
-
-The view presented when the user starts the app.
-
-- load either quiz 1 or quiz 2 on click
-
-##### 02 - Quiz View
-
-![02 - Quiz View](./diagrams/quiz-02.png)
-
-While the user is selecting their answers:
-
-- display all 3 questions with possible answers
-- provide feedback when a user clicks on an answer. Consider styling correct or wrong answers with green or red button colors
-- show the next question after a time delay of 2 seconds
-- track the number of correct answers in the top right corner
-
-##### 03 - Completion View
-
-![03 - Completion View](./diagrams/quiz-03.png)
-
-When the user has finished answering all three questions:
-
-- display the final score
-- show a "pass" message if more than 50% of the answers were correct, show a "fail" message otherwise
-
-## Upon Project Completion
-
-- push your finished app to Github
-- provide your username and repo to an instructor
-
-Good luck!
+<img src="./mockup/1.png">
+<img src="./mockup/2.png">
+<img src="./mockup/3.png">
+<img src="./mockup/4.png">
