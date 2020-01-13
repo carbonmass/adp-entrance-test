@@ -2,6 +2,7 @@
 
 A client-side quiz app based on the provided JSON file.
 
+This app could be run on local host and using Live Server.
 Only HTML / CSS / Javascript were used while building this project.
 
 ## Summary
