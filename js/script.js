@@ -15,13 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
         appendQuestions(quizData, quiz);
       });
 
-  const gameStart = () => {
-    mutliChoice("Quiz 1");
-    mutliChoice("Quiz 2");
-    score = 0;
-    selectQuiz();
-  };
-
   const startQuiz = quiz => {
     scoreContainer.classList.toggle("active");
     json(quiz);
